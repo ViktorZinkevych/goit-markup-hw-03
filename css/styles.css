@@ -35,7 +35,7 @@ img{
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
-    width: 1600px;
+    
 }
 
 .list{
@@ -155,6 +155,8 @@ img{
 .hero{
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
     
 
@@ -172,6 +174,7 @@ img{
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
    
    
     
@@ -215,16 +218,22 @@ img{
     gap: 30px;
 }
 .feature-item{
-    padding-top: 94px;
-    padding-bottom: 94px;
-    width: calc((100%-30px*3)/4);
+    
+    width: 270px;
 }
 .text-title{
     font-size: 14px;
 line-height: 1.7142;
 margin-top: 10px;
 }
+.feature-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* Work */
+.work{
+    padding-bottom: 94px;
+}
 .work-title{
     color: var(--title-text-color);
     font-size: 36px;
@@ -235,11 +244,12 @@ margin-top: 10px;
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    padding-bottom: 94px;
-}
+    }
 /* team */
 .team{
     background-color: #F5F4FA;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 .team-title{
     color: var(--title-text-color);
@@ -251,7 +261,7 @@ margin-top: 10px;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
-    padding-bottom: 30px;
+    
 }
 .title-people{
     font-weight: 500;
@@ -259,7 +269,6 @@ margin-top: 10px;
     line-height: 1.1875;
     text-align: center;
     color: var(--title-text-color);
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 .team-item{ 
@@ -273,16 +282,21 @@ margin-top: 10px;
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    padding-bottom: 94px;
+    
+}
+.team-div{
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 /* footer */
-.footer{
+.footer-page{
     background-color: #2F303A;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 .footer-contacts{
     list-style: none;
-    padding-bottom: 60px;
-}
+    }
 .footer-item{
     margin-bottom: 9px;
     margin-top: 9px;
@@ -295,7 +309,6 @@ margin-top: 10px;
 }
 .footer-link{
     color: var(--primary-white-color);
-    padding-top: 60px;
     margin-bottom: 20px;
     margin-right: 0;
     padding-bottom: 0;
@@ -346,7 +359,7 @@ margin-top: 10px;
     letter-spacing: 0.06em;
     color: #212121;
 
-    margin-top: 20px;
+
     padding-left: 24px;
     padding-right: 24px;
     margin-bottom: 4px;
@@ -357,17 +370,20 @@ margin-top: 10px;
     line-height: 1.875;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 20px;
+    
     
 }
 .hero-menu{
     background-color: #fff;
 }
 /* Portfolio Flex */
+.hero-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .menu.list{
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
     gap: 8px
 }
@@ -376,7 +392,12 @@ margin-top: 10px;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
-    padding-bottom: 94px;
+    
+}
+.div-examples{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .examples-item{
     width: 370px;
